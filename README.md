@@ -12,7 +12,7 @@ stat
 
 # About
 
----
+
 The project **Boss Hunt**, is an bot created for integrate the **Twitter API** with **Telegram API**.
 In this case, the goal is to know when the boss will spawn in a specific city (Amlodd). 
 For that, the bot will search tweets that contains those informations in the JagexClock profile (game profile),
@@ -20,7 +20,7 @@ then, the bot send to a specific chat in telegram the 10 last tweets about Amlod
 
 # Technologies
 
----
+
 - [Python](https://www.python.org/downloads/)
 - [Twitter API](https://developer.twitter.com/en/docs)
 - [Telebot](https://python-telegram-bot.readthedocs.io/en/v20.0a0/)
@@ -28,7 +28,7 @@ then, the bot send to a specific chat in telegram the 10 last tweets about Amlod
 
 #Getting Started
 
----
+
 To run this aplication, you will need the libraries:
 - [requests](https://docs.python-requests.org/en/latest/)
 - [dotenv](https://pypi.org/project/python-dotenv/)
@@ -60,12 +60,12 @@ import telebot
 
 #Usage
 
----
+
 <p>You can use this bot in order to track and get any tweets by the username and a keyword, in order to filter the amount of information provided by the social media.</p>
 For example, if you want to know the last 10 tweets about innovation in Tesla, just change the query in the url for "from: Tesla innovation".
 
 #Contact
 
----
+
 Daniel Alves Itame - daniel_itame@hotmail.com
 Project Link: https://github.com/lakdodo/Twitter_Telegram_bot
