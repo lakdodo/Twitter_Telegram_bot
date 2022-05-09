@@ -26,7 +26,7 @@ then, the bot send to a specific chat in telegram the 10 last tweets about Amlod
 - [Telebot](https://python-telegram-bot.readthedocs.io/en/v20.0a0/)
 
 
-#Getting Started
+# Getting Started
 
 
 To run this aplication, you will need the libraries:
@@ -34,12 +34,12 @@ To run this aplication, you will need the libraries:
 - [dotenv](https://pypi.org/project/python-dotenv/)
 - [telebot](https://python-telegram-bot.readthedocs.io/en/v20.0a0/)
 
-###Requests
+### Requests
 Many Python IDEs start with the requests library, but, to install the package, just run this command in your terminal:
 ```bash
 $ pip install requests
 ```
-###Dotenv
+### Dotenv
 Dotenv is a library that helps when you need to put a password or key-values in the application. To install the package, run in your terminal:
 ```bash
 $ pip install python-dotenv
@@ -48,7 +48,7 @@ Important: When you import the library, just use:
 ```
 import dotenv
 ```
-###Telebot
+### Telebot
 Telebot is a API developed by Telegram, that help devs create bots and integrate the bot with another API. To install the package, run in your terminal:
 ```bash
 $ pip install python-telegram-bot
@@ -58,13 +58,13 @@ Important: When you impor the library, just use:
 import telebot
 ```
 
-#Usage
+# Usage
 
 
 <p>You can use this bot in order to track and get any tweets by the username and a keyword, in order to filter the amount of information provided by the social media.</p>
 For example, if you want to know the last 10 tweets about innovation in Tesla, just change the query in the url for "from: Tesla innovation".
 
-#Contact
+# Contact
 
 
 Daniel Alves Itame - daniel_itame@hotmail.com
