@@ -3,10 +3,6 @@ import dotenv
 import os
 
 
-dotenv.load_dotenv(dotenv.find_dotenv())
-BEARER_TOKEN = os.getenv("BEARER_TOKEN")
-
-
 class Client:
 
     def __init__(self):
@@ -25,3 +21,6 @@ class Client:
         boss = requests.request("GET", url, headers=headers, data=payload)
         bosses = boss.json()
         return bosses
+
+if __name__ == '__main__':
+    main()

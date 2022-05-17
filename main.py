@@ -15,4 +15,4 @@ BOSSES = TWC.Client.boss_request(url,headers,payload)
 
 # Send the text of the tweets requested to an specific chat on Telegram
 bot = TEC.Client.telegram_authorization(TELE_TOKEN)
-send_boss_list = TEC.Client.send_message(BOSSES,bot)
+send_boss_list = TEC.Client.send_message(BOSSES,bot, CHAT_ID)
