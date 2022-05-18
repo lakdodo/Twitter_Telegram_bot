@@ -4,7 +4,6 @@ import os
 
 
 class Client:
-
     """The constructor of this client will initiate with the bearer token,
     to authenticate the request"""
 
