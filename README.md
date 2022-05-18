@@ -75,5 +75,5 @@ For example, if you want to know the last 10 tweets about innovation in Tesla, j
 # 📲Contact
 
 
-Daniel Alves Itame - daniel_itame@hotmail.com
+Daniel Alves Itame - daniel_itame@hotmail.com \
 Project Link: https://github.com/lakdodo/Twitter_Telegram_bot
