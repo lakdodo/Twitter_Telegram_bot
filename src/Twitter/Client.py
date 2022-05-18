@@ -5,7 +5,7 @@ import os
 
 class Client:
 
-    """The constructor of this client will initiate with the bearer token,
+     """The constructor of this client will initiate with the bearer token,
     to authenticate the request"""
 
     def __init__(self, BEARER_TOKEN):

@@ -4,7 +4,7 @@ import os
 
 
 class Client:
-    """ The constructor will initiate with these 2 attributes, the telegram token and
+     "" The constructor will initiate with these 2 attributes, the telegram token and
      the target chat, that will receive the tweets."""
     def __init__(self, TELE_TOKEN, CHAT_ID):
         self.token = TELE_TOKEN

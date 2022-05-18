@@ -1,1 +1,1 @@
-Tgititter_Telegram_bot: python 3 "main.py"
+Twitter_Telegram_bot: python "main.py"
