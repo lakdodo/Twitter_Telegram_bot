@@ -1,1 +1,1 @@
-Teitter_Telegram_bot: python 3 "main.py"
+Tgititter_Telegram_bot: python 3 "main.py"
