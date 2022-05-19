@@ -20,12 +20,11 @@ class Client:
         return url, payload, headers
 
 
+    def request_tweeter(self, url, headers, payload):
+        request_tweets = requests.request("GET", url, headers=headers, data=payload)
+        tweets_list = request_tweets.json()
 
-    def boss_request(self, url, headers, payload):
-        boss = requests.request("GET", url, headers=headers, data=payload)
-        bosses = boss.json()
-
-        return bosses
+        return tweets_list
 
 if __name__ == '__main__':
     main()
