@@ -30,7 +30,7 @@ def main():
 
 
 #Scheduling the main function to run every 60 minutes
-schedule.every(2).minutes.do(main)
+schedule.every(60).minutes.do(main)
 
 if __name__ == '__main__':
     while True:
