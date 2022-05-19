@@ -28,7 +28,7 @@ def main():
     send_boss_list = telegram_bot.send_message(REQUEST_LIST,bot, CHAT_ID)
 
 """Scheduling the main function to run every 60 minutes """
-schedule.every(60).minutes.do(main)
+schedule.every(1).minutes.do(main)
 
 while True:
     schedule.run_pending()
