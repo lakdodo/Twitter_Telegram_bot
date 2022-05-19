@@ -1,25 +1,23 @@
-import telebot
+import requests
 import dotenv
 import os
 
 
 class Client:
 
+
     def __init__(self, TELE_TOKEN, CHAT_ID):
         self.token = TELE_TOKEN
         self.chat_id = CHAT_ID
-        self.bot = self.telegram_authorization()
+        self.url_base = f'https://api.telegram.org/bot{self.token}'
 
-    def telegram_authorization(self):
-        # Autenticação do bot Telegram com telebot
-        bot = telebot.TeleBot(f'{self.token}')
-        return bot
 
-    def send_boss(self, tweets_list):
+    def send_message(self, tweets_list):
 
         for item in tweets_list['data']:
-            self.bot.send_message(chat_id='-725883740', text=item['text'])
-        self.bot.send_message(chat_id='-725883740', text='-' * 20)
+            response = requests.post(
+                url=f'{self.url_base}/sendMessage',
+                data={'chat_id': self.chat_id, 'text': f'{item["text"]}'}).json
 
 
 if __name__ == '__main__':
